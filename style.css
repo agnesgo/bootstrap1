@@ -1,19 +1,24 @@
 .satisfy-regular {
     font-family: "Satisfy", cursive;
-    font-weight: 800;
+    font-weight: 400;
     font-style: normal;
   }
   
-/*header{
-    align-items: center;
-    display: flex;
-    ;
-    width: 200px;
-    max-height: 250px;
-}*/
 
 header { 
 justify-content: space-around;
+color: rgb(70, 240, 175);
+}
+h1{
+    font-style: italic;
+    font-weight: bolder;
+}
+h6{
+    color: lightcoral;
+}
+
+h2{
+    color: lightcoral;
 }
 
 body{
@@ -22,13 +27,15 @@ body{
     font-family: "satisfy-regular";
     color: black;
 }
-nav {
+nav{
     border-radius: 10%;
+    background-color: blue;
 }
 #presentation{
     border-radius: 10px;
     padding: 5%;
     font-family: "satisfy-regular";
+   text-align: justify ;
     
 }
 
@@ -39,6 +46,7 @@ nav {
 
 .card-title{
     font-weight: bold;
+    color: rgb(255, 0, 187);
 }
 
 /*.card-img-top{
