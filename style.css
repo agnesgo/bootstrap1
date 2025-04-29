@@ -21,16 +21,16 @@ h2{
     color: lightcoral;
 }
 
-body{
+/*body{
     margin: 10px;
     background: url(images/macarons\ 6.jpg);
     font-family: "satisfy-regular";
-    color: black;
-}
-nav{
-    border-radius: 10%;
-    background-color: blue;
-}
+    color: black;}*/
+
+/*nav{
+    border-radius: 50%;
+    background-color: blue;}*/
+
 #presentation{
     border-radius: 10px;
     padding: 5%;
@@ -67,9 +67,11 @@ nav{
 }
 
 .footer{
-    background-color: rgba(255, 17, 108, 0.578);
-    
+    background-color:rgba(255, 0, 187, 0.138);    
 }
-.reseaux{ 
-    align-content: space-between;
-}
+
+
+.bg-gradient-rose {
+      background: linear-gradient(135deg, #fdf6f8, #fbc6d6d1);
+      color: black;
+    }
