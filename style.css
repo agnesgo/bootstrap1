@@ -75,3 +75,11 @@ h2{
       background: linear-gradient(135deg, #fdf6f8, #fbc6d6d1);
       color: black;
     }
+
+.svg{
+    transition: width 0.3s;
+    width: 60px;
+}
+.svg:hover{
+    width: 80px;
+}
